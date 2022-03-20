@@ -40,7 +40,7 @@ if (gps === "/contato.html") {
    let btn = document.querySelector("#enviar");
    btn.setAttribute("style", "width:100px");
 
-   let styleToDepoimentos = document.querySelector('header');
+   let styleToDepoimentos = document.querySelector('head');
    styleToDepoimentos.innerHTML += '<link rel="stylesheet" href="/css/index.css">'
    
    let main = document.querySelector("main");
